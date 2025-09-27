@@ -1,7 +1,7 @@
 print("Добро пожаловать в игру 'Викторина'!\n\t(prod by r4sdum)")
-goal = 0
-incorrect = 0
 while True:
+    incorrect = 0
+    goal = 0
     start = str(input("Введите 'start' чтобы начать: ")).lower()
     if start == "start":
         print("\n1. Какая аббревиатура означает 'Информационные технологии'?")
